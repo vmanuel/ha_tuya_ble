@@ -315,6 +315,21 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
             ],
         },
     ),
+    "zwd": TuyaBLECategorySwitchMapping(
+        products={
+            "06cesq4m": [  # Soil moisture sensor
+                TuyaBLESwitchMapping(
+                    dp_id=1,
+                    description=SwitchEntityDescription(
+                        key="switch",
+                        icon="mdi:thermometer",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+            ],
+        },
+    ),
     "ggq": TuyaBLECategorySwitchMapping(
         products={
             "6pahkcau": [  # Irrigation computer
