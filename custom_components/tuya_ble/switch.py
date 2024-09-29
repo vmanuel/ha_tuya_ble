@@ -321,7 +321,7 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
                 TuyaBLESwitchMapping(
                     dp_id=1,
                     description=SwitchEntityDescription(
-                        key="switch",
+                        key="switch_led",
                         icon="mdi:thermometer",
                         entity_category=EntityCategory.CONFIG,
                         entity_registry_enabled_default=False,

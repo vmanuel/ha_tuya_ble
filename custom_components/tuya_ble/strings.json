@@ -213,6 +213,9 @@
       "switch": {
         "name": "[%key:component::switch::entity_component::_::name%]"
       },
+      "switch_led": {
+        "name": "Switch"
+      },
       "lock_motor_state": {
           "name": "Motor State"
       },            
