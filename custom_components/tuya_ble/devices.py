@@ -177,7 +177,7 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
     "zwd": TuyaBLECategoryInfo(
         products={
             "06cesq4m": TuyaBLEProductInfo(  # device product_id
-                name="Smart grow light 04",
+                name="Smart grow light 04B",
             ),
         },
     ),
